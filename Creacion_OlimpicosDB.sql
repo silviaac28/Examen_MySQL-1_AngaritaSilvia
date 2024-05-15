@@ -136,13 +136,6 @@ presupuesto float
 )
 
 
-/*
-drop table info_complejo
-alter table complejo_deportivo
-add foreign key (id_info_complejo)
-references info_complejo(Id_departamento);
-*/
-
 INSERT INTO deportes VALUES
 (1,'Natacion', 5),
 (2,'Futbol', 25),
